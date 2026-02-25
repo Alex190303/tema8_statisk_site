@@ -1,0 +1,172 @@
+/*************** Reset *********************/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/************* Img *******************/
+img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.conatiner_3_img {
+  padding-bottom: 1rem;
+}
+/************** Body ****************/
+body {
+  background-color: rgb(247, 239, 226);
+}
+
+/********** Cards ****************/
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product_gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto auto auto auto;
+  gap: 15px;
+  margin: 5rem;
+}
+
+.product {
+  background-color: rgb(240, 132, 45);
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 4;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.conatiner_2 {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.product_gallery_2 {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  grid-template-rows: auto auto auto auto;
+  gap: 15px;
+  margin-top: 1rem;
+  margin-left: 5rem;
+  margin-right: 5rem;
+  margin-bottom: 5rem;
+}
+
+.product_preview {
+  background-color: rgb(240, 132, 45);
+  display: grid;
+  grid-template-rows: subgrid;
+  grid-row: span 6;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.conatiner_3 {
+  background-color: rgb(240, 132, 45);
+  margin-top: 1rem;
+  margin-left: 8rem;
+  margin-right: 8rem;
+  margin-bottom: 5rem;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+/**************** Buttons ********************/
+
+.logo_btn {
+  background-color: #f1632e;
+  border-style: none;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+
+.product_preview_btn {
+  background-color: #1f1f8a;
+  border-style: none;
+  padding: 1rem;
+  border-radius: 5px;
+}
+
+.basket_btn {
+  background-color: #1f1f8a;
+  border-style: none;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+}
+
+/**************** Fonts *****************/
+
+h1 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 4rem;
+  margin-bottom: 1rem;
+  margin-left: 1.5rem;
+  margin-top: 1rem;
+  color: #3e3eb1;
+}
+
+h2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 2.5rem;
+  color: #1f1f8a;
+  margin-left: 5rem;
+}
+
+h3 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.7rem;
+  color: rgb(247, 239, 226);
+}
+
+p {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(247, 239, 226);
+}
+a {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(247, 239, 226);
+}
+
+a:hover {
+  font-size: 18px;
+}
+
+li {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1rem;
+  list-style: none;
+}
+
+button {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 1.5rem;
+  color: rgb(247, 239, 226);
+}
+
+footer {
+  padding-left: 1.5rem;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+  background-color: #40408a;
+  color: rgb(247, 239, 226);
+}
+
+.homepage_links {
+  margin: 0 auto;
+}
+
+.basket_btn {
+  font-size: 1.5rem;
+}
