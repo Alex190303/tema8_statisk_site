@@ -10,9 +10,9 @@ function show(data) {
   productcontainer.innerHTML = `
     <img class="conatiner_3_img" src="https://kea-alt-del.dk/t7/images/webp/640/${id}.webp" alt="product img">
             <h3>${data.productdisplayname}</h3>
-            <p>${data.brandname}</p>
-            <p class="price">${data.price}</p>
-            <p class="stock">${data.discount}</p>
+            <p>Brandname: ${data.brandname}</p>
+            <p class="price">Price: $${data.price}</p>
+            <p class="stock">Discount: ${data.discount}%</p>
             <button class="basket_btn">Add to basket</button>
   `;
 }
