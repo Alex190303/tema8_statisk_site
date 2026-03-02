@@ -1,7 +1,7 @@
 const params = new URLSearchParams(window.location.search);
 const category = params.get("category");
 
-const listURL = "https://kea-alt-del.dk/t7/api/products?category=" + category;
+const listURL = "https://kea-alt-del.dk/t7/api/products?limit=9&category=" + category;
 const listContainer = document.querySelector(".product_gallery_2");
 
 function getProducts() {
