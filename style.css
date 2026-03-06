@@ -34,7 +34,7 @@ body {
   margin: 5rem;
 }
 
-.product {
+.homepage_links {
   background-color: rgb(240, 132, 45);
   display: grid;
   grid-template-rows: subgrid;
@@ -81,6 +81,14 @@ body {
 /**************** Buttons ********************/
 
 .logo_btn {
+  background-color: #f1632e;
+  border-style: none;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.productlist_btn {
   background-color: #f1632e;
   border-style: none;
   margin-left: 1.5rem;
@@ -137,10 +145,12 @@ a {
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 1.5rem;
   color: rgb(247, 239, 226);
+  justify-content: center;
 }
 
 a:hover {
-  font-size: 18px;
+  font-size: 22px;
+  background-color: #1f1f8a;
 }
 
 li {
